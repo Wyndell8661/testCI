@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mappers.SenstivePeopleMapper">
+
+    <resultMap id="sensitivePersonInfo" type="com.example.demo.entities.SensitivePeople">
+        <result column="priaccountid" jdbcType="VARCHAR" property="priId" />
+        <result column="priaccountname" jdbcType="VARCHAR" property="priName" />
+        <result column="miaccountid" jdbcType="VARCHAR" property="miId" />
+        <result column="miaccountname" jdbcType="VARCHAR" property="miName" />
+    </resultMap>
+
+    <!--这地方只能返回resultMap，不能返回resultType，否则对象的属性注入会失败-->
+    <select id="getPersonInfo" parameterType="java.lang.String" resultMap="sensitivePersonInfo">
+        select * from sensitivepeoplelog where priaccountid = #{id} limit 1
+</select>
+
+    <!--mapper中接口定义返回list，我们依旧返回resultMap就可以了-->
+    <select id="getPersonInfoList" parameterType="java.lang.String" resultMap="sensitivePersonInfo">
+        select * from sensitivepeoplelog where priaccountid = #{id}
+    </select>
+
+    <!--传入参数是java.lang.List,拼接所有的miName-->
+<!--    <select id="getMiName" parameterType="java.util.List" resultType="java.lang.String">-->
+
+<!--    </select>-->
+
+
+</mapper>

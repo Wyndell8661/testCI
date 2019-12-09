@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mappers.TestUserMapper">
+
+    <resultMap id="testUserInfo" type="com.example.demo.entities.TestUser">
+        <result column="user_id" jdbcType="BIGINT" property="userId" />
+        <result column="user_name" jdbcType="VARCHAR" property="userName" />
+        <result column="password" jdbcType="VARCHAR" property="passWord" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="last_login_time" jdbcType="TIMESTAMP" property="lastLoginTime" />
+    </resultMap>
+
+    <insert id="insertUser"  parameterType="com.example.demo.entities.TestUser">
+        <!--插入成功后返回自增主键-->
+        <selectKey resultType="java.lang.Long" keyProperty="userId" order="AFTER">
+            SELECT
+            LAST_INSERT_ID()
+        </selectKey>
+        insert into testuser(user_name,password,name,mobile,email,last_login_time)
+        values(#{userName},#{passWord},#{name},#{mobile},#{email},#{lastLoginTime})
+    </insert>
+    
+    <select id="groupBy" resultType="java.util.HashMap">
+        SELECT
+            user_name,
+            group_concat(mobile separator ',') as mobile
+        FROM
+            testuser
+        GROUP BY
+            user_name
+    </select>
+
+    <select id="count" resultType="java.util.Map">
+        SELECT
+        user_name as userName,
+        count(1) as num
+        FROM
+        testuser
+        GROUP BY
+        user_name
+        ORDER BY num
+    </select>
+
+
+</mapper>

@@ -1,0 +1,8 @@
+2019-11-29 17:41:00.238 - INFO [       Thread-7] [o.s.s.concurrent.ThreadPoolTaskExecutor ] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 20:19:33.301 -DEBUG [       Thread-9] [ConfigServletWebServerApplicationContext] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@48d5f34e, started on Fri Nov 29 20:17:32 CST 2019
+2019-11-29 20:19:33.302 -DEBUG [       Thread-9] [o.s.c.e.PropertySourcesPropertyResolver ] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2019-11-29 20:19:33.304 -DEBUG [       Thread-9] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans on shutdown
+2019-11-29 20:19:33.305 -DEBUG [       Thread-9] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans
+2019-11-29 20:19:33.306 - INFO [       Thread-9] [o.s.s.concurrent.ThreadPoolTaskExecutor ] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 20:30:22.086 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-29 20:30:52.089 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)

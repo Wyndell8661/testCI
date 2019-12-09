@@ -1,0 +1,13 @@
+[34m2019-12-02 17:58:23.550[0;39m -DEBUG [nio-9008-exec-2] [requestId:] [o.s.web.servlet.DispatcherServlet       ] GET "/print", parameters={}
+[34m2019-12-02 17:58:23.551[0;39m -DEBUG [nio-9008-exec-2] [requestId:] [s.w.s.m.m.a.RequestMappingHandlerMapping] Mapped to public java.lang.String com.example.demo.jsoncontroller.JsonController.print()
+[34m2019-12-02 17:58:23.554[0;39m -DEBUG [nio-9008-exec-2] [requestId:3939158886371584] [m.m.a.RequestResponseBodyMethodProcessor] Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+[34m2019-12-02 17:58:23.618[0;39m -DEBUG [nio-9008-exec-2] [requestId:3939158886371584] [m.m.a.RequestResponseBodyMethodProcessor] Writing ["{"dateStr":"2019-11-23 07:06:46","id":322042339901218775,"uUID":"5510521662895"}"]
+[34m2019-12-02 17:58:23.620[0;39m -DEBUG [nio-9008-exec-2] [requestId:] [o.s.web.servlet.DispatcherServlet       ] Completed 200 OK
+[34m2019-12-02 17:58:23.777[0;39m -DEBUG [nio-9008-exec-3] [requestId:] [o.s.web.servlet.DispatcherServlet       ] GET "/favicon.ico", parameters={}
+[34m2019-12-02 17:58:23.779[0;39m -DEBUG [nio-9008-exec-3] [requestId:] [o.s.w.s.handler.SimpleUrlHandlerMapping ] Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+[34m2019-12-02 17:58:23.789[0;39m -DEBUG [nio-9008-exec-3] [requestId:] [o.s.web.servlet.DispatcherServlet       ] Completed 200 OK
+[34m2019-12-02 17:58:41.037[0;39m -DEBUG [      Thread-10] [requestId:] [ConfigServletWebServerApplicationContext] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c055c54, started on Mon Dec 02 17:52:29 CST 2019
+[34m2019-12-02 17:58:41.038[0;39m -DEBUG [      Thread-10] [requestId:] [o.s.c.e.PropertySourcesPropertyResolver ] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[34m2019-12-02 17:58:41.044[0;39m -DEBUG [      Thread-10] [requestId:] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans on shutdown
+[34m2019-12-02 17:58:41.045[0;39m -DEBUG [      Thread-10] [requestId:] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans
+[34m2019-12-02 17:58:41.046[0;39m - INFO [      Thread-10] [requestId:] [o.s.s.concurrent.ThreadPoolTaskExecutor ] Shutting down ExecutorService 'applicationTaskExecutor'

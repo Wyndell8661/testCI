@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration scan="true" scanPeriod="60 seconds" debug="true">
+
+    <springProperty scope="context" name="log_home" source="log.path"/>
+    <springProperty scope="context" name="log_level" source="log.level"/>
+
+
+    <!--日志输出的格式-->
+    <property name="my_pattern" value="%blue(%d{yyyy-MM-dd HH:mm:ss.SSS}) -%5p [%15.15t] [requestId:%mdc{requestId}] [%-40.40logger{39}] %m%n">
+    </property>
+
+    <!--日志保留的份数：默认是10份-->
+    <property name="my_max_history" value="10"></property>
+
+    <!--配置文件名后缀属性-->
+    <property name="file_name_suffix" value="yyyy-MM-dd"></property>
+
+    <!--添加控制台输出-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${my_pattern}</pattern>
+            <charset>utf-8</charset>
+        </encoder>
+    </appender>
+
+    <!--添加info级别的JSON输出-->
+    <appender name="JSONLOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>%m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_home}/json_%d{${file_name_suffix}}.txt</fileNamePattern>
+            <maxHistory>${my_max_history}</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--添加info级别的输出-->
+    <appender name="INFOLOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>${my_pattern}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_home}/info_%d{${file_name_suffix}}</fileNamePattern>
+            <maxHistory>${my_max_history}</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--添加error级别及以上的输出-->
+    <appender name="ERRORLOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <encoder>
+            <pattern>${my_pattern}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_home}/error_%d{${file_name_suffix}}</fileNamePattern>
+            <maxHistory>${my_max_history}</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <root level="${log_level}">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="INFOLOG"/>
+        <appender-ref ref="ERRORLOG"/>
+    </root>
+
+    <logger name="com.example.demo" level = "info" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+<!--    &lt;!&ndash;控制台打印sql&ndash;&gt;-->
+<!--    <logger name="org.hibernate.SQL" additivity="true" >-->
+<!--        <level value="info" />-->
+<!--    </logger>-->
+
+<!--    <logger name="com.ibatis" level="info" />-->
+<!--    <logger name="com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="info" />-->
+<!--    <logger name="java.sql.Connection" level="info" />-->
+<!--    <logger name="java.sql.Statement" level="info" />-->
+<!--    <logger name="java.sql.PreparedStatement" level="info" />-->
+
+    <logger name="com.example.demo.mappers" level="debug"></logger>
+
+<!--    &lt;!&ndash; 2. 输出SQL 的参数到控制台和文件&ndash;&gt;-->
+<!--    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="true" level="TRACE" >-->
+<!--    </logger>-->
+    <logger name="com.example.demo.jsoncontroller" level="info" additivity="false">
+        <appender-ref ref="JSONLOG"/>
+    </logger>
+
+</configuration>

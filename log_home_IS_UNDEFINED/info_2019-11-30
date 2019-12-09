@@ -1,0 +1,99 @@
+2019-11-30 12:18:04.546 - WARN [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h47m12s462ms169µs100ns).
+2019-11-30 12:18:04.564 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:18:04.621 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c81765d: (connection has passed maxLifetime)
+2019-11-30 12:18:04.632 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22f3f38: (connection has passed maxLifetime)
+2019-11-30 12:18:04.673 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ab402ea
+2019-11-30 12:18:06.263 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eb303fb
+2019-11-30 12:18:06.275 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6894806d: (connection has passed maxLifetime)
+2019-11-30 12:18:06.277 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a573d48: (connection has passed maxLifetime)
+2019-11-30 12:18:06.280 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6826ee6f: (connection has passed maxLifetime)
+2019-11-30 12:18:06.283 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@130bcaac: (connection has passed maxLifetime)
+2019-11-30 12:18:06.285 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5fd0a748: (connection has passed maxLifetime)
+2019-11-30 12:18:06.287 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c5e7c87: (connection has passed maxLifetime)
+2019-11-30 12:18:06.288 -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3354a2f5: (connection has passed maxLifetime)
+2019-11-30 12:18:06.425 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a218f3c
+2019-11-30 12:18:06.441 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bd7a9bf
+2019-11-30 12:18:06.457 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7caf7db2
+2019-11-30 12:18:06.477 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79368f8
+2019-11-30 12:18:06.493 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9507c6
+2019-11-30 12:18:06.506 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@98dbb65
+2019-11-30 12:18:06.519 -DEBUG [onnection adder] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14e16df2
+2019-11-30 12:18:34.665 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:19:04.767 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:19:34.856 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:20:05.031 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:20:35.093 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:21:05.143 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:21:35.274 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:22:05.277 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:22:35.279 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:23:05.281 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:23:35.282 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:24:05.284 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:24:35.286 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:25:05.288 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:25:35.289 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:26:05.291 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:26:35.295 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:27:05.296 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:27:35.297 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:28:05.299 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:28:35.301 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:29:05.301 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:29:35.306 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:30:05.332 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:30:35.351 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:31:05.353 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:31:35.356 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:32:05.359 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:32:35.361 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:33:05.363 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:33:35.367 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:34:05.370 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:34:35.372 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:35:05.416 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:35:35.418 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:36:05.421 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:36:35.423 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:37:05.425 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:37:35.428 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:38:05.432 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:38:35.435 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:39:05.437 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:39:35.437 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:40:05.439 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:40:35.442 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:41:05.445 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:41:35.447 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:42:05.452 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:42:35.457 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:43:05.459 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:43:35.464 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:44:05.466 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:44:35.467 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:45:05.470 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:45:35.471 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2019-11-30 12:46:05.473 -DEBUG [l-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+[34m2019-11-30 12:46:16.361[0;39m -DEBUG [       Thread-4] [ConfigServletWebServerApplicationContext] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b2c4efb, started on Fri Nov 29 20:26:07 CST 2019
+[34m2019-11-30 12:46:16.365[0;39m -DEBUG [       Thread-4] [o.s.c.e.PropertySourcesPropertyResolver ] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[34m2019-11-30 12:46:16.390[0;39m -DEBUG [       Thread-4] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans on shutdown
+[34m2019-11-30 12:46:16.393[0;39m -DEBUG [       Thread-4] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans
+[34m2019-11-30 12:46:16.393[0;39m - INFO [       Thread-4] [o.s.s.concurrent.ThreadPoolTaskExecutor ] Shutting down ExecutorService 'applicationTaskExecutor'
+[34m2019-11-30 12:46:16.395[0;39m - INFO [       Thread-4] [com.zaxxer.hikari.HikariDataSource      ] HikariPool-1 - Shutdown initiated...
+[34m2019-11-30 12:46:16.396[0;39m -DEBUG [       Thread-4] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - Before shutdown stats (total=10, active=1, idle=9, waiting=0)
+[34m2019-11-30 12:46:16.398[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ab402ea: (connection evicted)
+[34m2019-11-30 12:46:16.406[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7eb303fb: (connection evicted)
+[34m2019-11-30 12:46:16.409[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a218f3c: (connection evicted)
+[34m2019-11-30 12:46:16.411[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2bd7a9bf: (connection evicted)
+[34m2019-11-30 12:46:16.413[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7caf7db2: (connection evicted)
+[34m2019-11-30 12:46:16.415[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79368f8: (connection evicted)
+[34m2019-11-30 12:46:16.418[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f9507c6: (connection evicted)
+[34m2019-11-30 12:46:16.420[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@98dbb65: (connection evicted)
+[34m2019-11-30 12:46:16.422[0;39m -DEBUG [nnection closer] [com.zaxxer.hikari.pool.PoolBase         ] HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14e16df2: (connection evicted)
+[34m2019-11-30 12:46:16.453[0;39m -DEBUG [       Thread-4] [com.zaxxer.hikari.pool.HikariPool       ] HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[34m2019-11-30 12:46:16.454[0;39m - INFO [       Thread-4] [com.zaxxer.hikari.HikariDataSource      ] HikariPool-1 - Shutdown completed.
+[34m2019-11-30 14:57:56.824[0;39m -DEBUG [      Thread-10] [ConfigServletWebServerApplicationContext] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@293a5f75, started on Sat Nov 30 13:32:00 CST 2019
+[34m2019-11-30 14:57:56.827[0;39m -DEBUG [      Thread-10] [o.s.c.e.PropertySourcesPropertyResolver ] Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+[34m2019-11-30 14:57:56.856[0;39m -DEBUG [      Thread-10] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans on shutdown
+[34m2019-11-30 14:57:56.857[0;39m -DEBUG [      Thread-10] [o.s.j.e.a.AnnotationMBeanExporter       ] Unregistering JMX-exposed beans
+[34m2019-11-30 14:57:56.859[0;39m - INFO [      Thread-10] [o.s.s.concurrent.ThreadPoolTaskExecutor ] Shutting down ExecutorService 'applicationTaskExecutor'

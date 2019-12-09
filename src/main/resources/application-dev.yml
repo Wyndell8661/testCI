@@ -1,0 +1,20 @@
+server:
+  port: 9008
+  servlet:
+    session:
+      timeout: 3600s
+
+spring:
+  datasource:
+    username: root
+    password: 160778
+    url: jdbc:mysql://localhost:3306/neimeng?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapping.xml
+  type-aliases-package: com.example.entity
+
+log:
+ path: d:/logs #日志路径
+ level: info

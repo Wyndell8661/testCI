@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mappers.SystemMapper">
+
+    <resultMap id="systemInfo" type="com.example.demo.entities.Systems">
+        <result column="ip" jdbcType="VARCHAR" property="ip" />
+        <result column="table" jdbcType="VARCHAR" property="systemName" />
+    </resultMap>
+
+    <!--这地方只能返回resultMap，不能返回resultType，否则对象的属性注入会失败-->
+    <select id="getAllSystems" resultMap="systemInfo">
+        select
+            t.table,
+            t.ip
+        from
+            platform t
+    </select>
+
+</mapper>
